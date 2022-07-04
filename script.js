@@ -37,7 +37,7 @@ const numbers = {
 /^([1-9]|[1-2][0-9]|3[0-2])[\.\-\_\s][a-zA-Zа-яёїґА-ЯЁЇҐ]+[\.\-\_\s]\d{4}$/; // '5 month 2022'
 
 // Password
-/^(?=.*[a-zA-Zа-яёїґА-ЯЁЇҐ])(?=.*\d)(?=.*[^a-zA-Zа-яёїґА-ЯЁЇҐ\d]).*$/;
+/^(?=.*[a-zA-Zа-яёїґА-ЯЁЇҐ])(?=.*\d)(?=.*[^a-zA-Zа-яёїґА-ЯЁЇҐ\d]).*$/; // any password must have letter number spacial symbol
 
 // Comment
 /^.*$/; // any text
